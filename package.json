@@ -1,0 +1,13 @@
+{
+  "name": "monorepo2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:all": "pnpm -r build",
+    "main:start": "pnpm -F @demo/main start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

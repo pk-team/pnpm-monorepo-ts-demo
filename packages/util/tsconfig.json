@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "target": "ES2019",
+      "sourceMap": true,
+      "rootDir": "./src",
+      "outDir": "dist",
+      "declaration": true
+    },
+    "lib": ["es2015"]
+  }

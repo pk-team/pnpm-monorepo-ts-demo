@@ -1,0 +1,26 @@
+lockfileVersion: 5.4
+
+importers:
+
+  packages/main:
+    specifiers:
+      '@demo/util': workspace:^1.0.0
+      typescript: ^4.8.4
+    dependencies:
+      '@demo/util': link:../util
+    devDependencies:
+      typescript: 4.8.4
+
+  packages/util:
+    specifiers:
+      typescript: ^4.8.4
+    devDependencies:
+      typescript: 4.8.4
+
+packages:
+
+  /typescript/4.8.4:
+    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
